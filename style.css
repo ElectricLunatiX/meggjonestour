@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+  }
+  
+  .slider-container {
+    text-align: center;
+  }
+  
+  #slider-image {
+    max-width: 100%;
+    max-height: 400px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .controls {
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #363636;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #afd6ff;
+  }
